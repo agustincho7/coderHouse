@@ -55,11 +55,6 @@ footer{
     padding: 20px;
 }
 
-.productos-destacados h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
 .producto {
     display: inline-block; 
     width: 30%; 
@@ -133,3 +128,7 @@ footer{
     
 }
 
+.titulo-productos{
+    text-align: center;
+    background-color: #ffcc00;
+}
