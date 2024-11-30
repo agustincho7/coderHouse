@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 header .logo-header{
@@ -11,10 +10,15 @@ header .logo-header{
 
 .ul-header{
     list-style: none;
-    display: flex;
+    display: inline-flex;
     padding: 0px;
     margin: 0px;
     height: 300;
+}
+
+main section .portada-main{
+    width: 99vw;
+    margin: 0;
 }
 
 .ul-header li{
@@ -79,7 +83,7 @@ header{
 .footer {
     background-color: #333;
     color: #fff; 
-    padding: 165.5px 10px;
+    padding: 15px 10px;
     text-align: center;
     position: relative; 
     width: 98,8%;
@@ -113,7 +117,9 @@ header{
 
 .titulo-productos{
     text-align: center;
-    background-color: #ffcc00;
+    background-color: #ffdd53;
+    display: grid;
+    align-content: center;
 }
 
 .ul-header li a{
