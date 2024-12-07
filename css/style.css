@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header .logo-header{
+.logo-header{
     width: 50px;
     margin-left: 20px;
 }
@@ -16,7 +16,7 @@ header .logo-header{
     height: 300;
 }
 
-main section .portada-main{
+.portada-main{
     width: 99vw;
     margin: 0;
 }
@@ -108,6 +108,7 @@ header{
     text-decoration: none;
     margin: 0 10px;
     font-size: 0.9em;
+    font-weight: bold;
 }
 
 .footer-enlaces a:hover {
