@@ -5,45 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PreEntrega1</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/png" href="./imagenes/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="ul-header">
-                <img class="logo-header" src="./imagenes/2478542.png" alt="">
-                <li><a href="pages/nosotros.html">nosotros</a></li>
-                <li><a href="pages/contacto.html">contacto</a></li>
-                <li><a href="pages/locales.html">nuestros locales</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <img class= "portada-main" src="imagenes/102062008-panadería-y-pastelería-banner-de-pastelería-con-pan-y-pan.jpg" alt="">
-        </section>
-        <section class="productos-destacados">
-            <h2 class="titulo-productos">Productos destacados</h2>
-            <div class="producto">
-                <h3>Pansito caliente</h3>
-                <img src="./imagenes/freshly-baked-bread-isolated-white-background-removebg-preview.png" alt="Pan lactal">
-                <a href="#" class="boton-amarillo">comprar</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Panaderia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">fotos</a></li>
+                    <li class="nav-item dropdown"></li>
+                </ul>
             </div>
-            <div class="producto">
-                <h3>Pansito tibio</h3>
-                <img src="./imagenes/freshly-baked-bread-isolated-white-background-removebg-preview.png" alt="Pan lactal">
-                <a href="#" class="boton-amarillo">comprar</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <img class="portada-main" src="imagenes/102062008-panadería-y-pastelería-banner-de-pastelería-con-pan-y-pan.jpg"
+            alt="">
+    </section>
+    <section class="productos-destacados">
+        <h2 class="titulo-productos">Productos destacados</h2>
+        <div class="producto">
+            <h3>Pansito caliente</h3>
+            <img src="./imagenes/freshly-baked-bread-isolated-white-background-removebg-preview.png" alt="Pan lactal">
+            <a href="#" class="boton-amarillo">comprar</a>
+        </div>
+        <div class="producto">
+            <h3>Pansito tibio</h3>
+            <img src="./imagenes/freshly-baked-bread-isolated-white-background-removebg-preview.png" alt="Pan lactal">
+            <a href="#" class="boton-amarillo">comprar</a>
+        </div>
+        <div class="producto">
+            <h3>Pansito frio</h3>
+            <img src="./imagenes/freshly-baked-bread-isolated-white-background-removebg-preview.png" alt="Pan lactal">
+            <a href="#" class="boton-amarillo">comprar</a>
+        </div>
+    </section>
+    <section id="galeria" class="galeria">
+        <h2 class="text-center text-primary mb-4">Galería</h2>
+        <div class="grid-galeria">
+            <div class="grid-item">
+                <img src="./imagenes/foto1.jpeg" alt="Imagen 1">
             </div>
-            <div class="producto">
-                <h3>Pansito frio</h3>
-                <img src="./imagenes/freshly-baked-bread-isolated-white-background-removebg-preview.png" alt="Pan lactal">
-                <a href="#" class="boton-amarillo">comprar</a>
+            <div class="grid-item">
+                <img src="./imagenes/foto2.jpeg" alt="Imagen 2">
             </div>
-        </section>
-        
-    </main>
+            <div class="grid-item">
+                <img src="./imagenes/foto3.jpeg" alt="Imagen 3">
+            </div>
+            <div class="grid-item">
+                <img src="./imagenes/foto4.jpeg" alt="Imagen 4">
+            </div>
+            <div class="grid-item">
+                <img src="./imagenes/foto5.jpeg" alt="Imagen 5">
+            </div>
+            <div class="grid-item">
+                <img src="./imagenes/foto6.jpeg" alt="Imagen 6">
+            </div>
+        </div>
+    </section>
+
+</main>
 </body>
 <footer class="footer">
     <div class="footer-contenido">
@@ -55,4 +95,5 @@
         </div>
     </div>
 </footer>
+
 </html>

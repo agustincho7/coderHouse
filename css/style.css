@@ -128,3 +128,41 @@ header{
     color: black;
     font-size: 20px;
 }
+
+.header .navbar-brand{
+    color: #ffcc00;
+}
+
+.galeria {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 15px; 
+}
+
+.grid-item img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.text-center {
+    text-align: center;
+    color: #333;
+}
+
+.galeria {
+    background-color: #ffcc00;
+}
