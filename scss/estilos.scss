@@ -1,0 +1,170 @@
+$color-primario: #ffd700;
+$color-secundario: bisque;
+$color-borde: rgb(202, 170, 26);
+$color-texto-oscuro: #333;
+$color-texto-claro: #fff;
+$color-enlace-hover: #ffcc00;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-header {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.ul-header {
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  height: 300px;
+
+  li {
+    margin-top: 15px;
+    margin-left: 50px;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+  }
+}
+
+header {
+  background-color: $color-primario;
+
+  .navbar-brand {
+    color: $color-enlace-hover;
+  }
+}
+
+.ico-ig {
+  height: 20px;
+}
+
+.portada-main {
+  width: 99vw;
+  margin: 0;
+}
+
+.productos-destacados {
+  display: flex;
+  text-align: center;
+  background-color: $color-secundario;
+  padding: 20px;
+  border: 3px solid $color-borde;
+
+  .producto {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+    text-align: center;
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.4em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: $color-primario;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: $color-enlace-hover;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: $color-texto-oscuro;
+  color: $color-texto-claro;
+  padding: 15px 10px;
+  text-align: center;
+  position: relative;
+  width: 98.8%;
+
+  .footer-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+
+  .footer-enlaces {
+    margin-top: 10px;
+
+    a {
+      color: $color-primario;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 0.9em;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+        color: $color-enlace-hover;
+      }
+    }
+  }
+}
+
+.titulo-productos {
+  text-align: center;
+  background-color: lighten($color-primario, 20%);
+  display: grid;
+  align-content: center;
+}
+
+.galeria {
+  padding: 20px;
+  background-color: $color-primario;
+
+  .grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+
+    .grid-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
+
+.texto-centro {
+  text-align: center;
+  color: $color-texto-oscuro;
+}

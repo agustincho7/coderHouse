@@ -1,0 +1,19 @@
+{
+  "name": "preentrega1avella",
+  "version": "1.0.0",
+  "description": "Primer tarea para coderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustincho7/tareaCoder1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustincho7/tareaCoder1/issues"
+  },
+  "homepage": "https://github.com/agustincho7/tareaCoder1#readme"
+}
